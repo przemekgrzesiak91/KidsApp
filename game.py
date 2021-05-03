@@ -36,12 +36,12 @@ class Game(object):
         self.show_level = False
 
         # Tło
-        self.background_image = pygame.image.load("background.jpg").convert()
+        self.background_image = pygame.image.load("pics/background.jpg").convert()
         self.background_image = pygame.transform.scale(self.background_image, (self.screen_width, self.screen_height))
 
         # Dźwięki
-        self.sound_1 = pygame.mixer.Sound("item1.ogg")
-        self.sound_2 = pygame.mixer.Sound("item2.ogg")
+        self.sound_1 = pygame.mixer.Sound("other/item1.ogg")
+        self.sound_2 = pygame.mixer.Sound("other/item2.ogg")
 
 
 
